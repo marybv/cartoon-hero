@@ -11,12 +11,14 @@ header{
 h1{
 	font-size: 60px;
 	color: white;
+	text-shadow: 0 5px 10px grey;
 }
 
 header img{
 	border-radius: 174px;
 	width: 300px;
 	border: 5px solid #FFFFFF;
+	box-shadow: 0 5px 10px grey;
 }
 
 .content{
@@ -46,10 +48,14 @@ a{
 	text-decoration: none;
 }
 
+a:hover{
+	background-color: lightgrey;
+}
+
 footer{
 	margin-top: 20px;
 	padding: 40px 20px;
-	background-color: #DBFFF3;
+	background-color: #EBEDEB;
 }
 
 footer ul{
